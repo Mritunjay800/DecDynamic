@@ -1,0 +1,44 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Registration Form</title>    
+    <link rel="stylesheet" type="text/css" href="CSS/css_registration.css">    
+</head>    
+<body class="background">    
+    <h2>REGISTRATION</h2><br>    
+    <div class="login"> 
+
+        <a href="/login"> 
+    <input type="button" name="seclog" id="seclog" value="Login here">
+        </a>
+
+                <form action="/register" method="POST" id="login">
+                <label><b>User Name</b></label>
+                    <input type="text" name="username" required id="Uname">
+                <br><br>
+                <label><b>Password</b></label>  
+                    <input type="password" name="password" required id="Pass">
+                <br><br>
+                <label><b>Confirm Password</b></label>
+                    <input type="password" name="confirmpassword" required id="Pass">
+                <br><br>
+                <label><b>Gender</b></label>
+                    <input type="radio" name="gender" value="m" required>Male
+                    <input type="radio" name="gender" value="f" required>Female
+                    <br><br>
+                <label><b>Login ID</b></label>
+                    <input type="email" name="email" required id="Pass">
+                <br><br>
+                <label><b>Phone no :</b></label>
+                    <input type="phone" name="phone" required id="Pass">
+                    <br><br>
+
+                <input type="submit" name="log" id="log" value="Submit">       
+                
+            </form>
+
+
+
+</div>    
+</body>    
+</html> 

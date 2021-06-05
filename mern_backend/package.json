@@ -1,0 +1,29 @@
+{
+  "name": "mern_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.9",
+    "npm-check-updates": "^11.5.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mritunjay800/mySpaceWebsite.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Mritunjay800/mySpaceWebsite/issues"
+  },
+  "homepage": "https://github.com/Mritunjay800/mySpaceWebsite#readme",
+  "description": ""
+}
